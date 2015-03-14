@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var dailyContent: UITextField!
+    @IBOutlet weak var stepperLabel: UILabel!
+    // stepper
 
     override func viewDidLoad() {
         super.viewDidLoad()
