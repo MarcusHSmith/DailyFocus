@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD324551AB4F5D100F3BDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD324541AB4F5D100F3BDAB /* AppDelegate.swift */; };
+		2CD324581AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD324561AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld */; };
+		2CD3245A1AB4F5D100F3BDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD324591AB4F5D100F3BDAB /* ViewController.swift */; };
+		2CD3245D1AB4F5D100F3BDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD3245B1AB4F5D100F3BDAB /* Main.storyboard */; };
+		2CD3245F1AB4F5D100F3BDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD3245E1AB4F5D100F3BDAB /* Images.xcassets */; };
+		2CD324621AB4F5D100F3BDAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD324601AB4F5D100F3BDAB /* LaunchScreen.xib */; };
+		2CD3246E1AB4F5D100F3BDAB /* DailyFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3246D1AB4F5D100F3BDAB /* DailyFocusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD324681AB4F5D100F3BDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD324471AB4F5D100F3BDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD3244E1AB4F5D100F3BDAB;
+			remoteInfo = DailyFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD3244F1AB4F5D100F3BDAB /* DailyFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD324531AB4F5D100F3BDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD324541AB4F5D100F3BDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CD324571AB4F5D100F3BDAB /* DailyFocus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyFocus.xcdatamodel; sourceTree = "<group>"; };
+		2CD324591AB4F5D100F3BDAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CD3245C1AB4F5D100F3BDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CD3245E1AB4F5D100F3BDAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CD324611AB4F5D100F3BDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CD324671AB4F5D100F3BDAB /* DailyFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD3246C1AB4F5D100F3BDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD3246D1AB4F5D100F3BDAB /* DailyFocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFocusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD3244C1AB4F5D100F3BDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD324641AB4F5D100F3BDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD324461AB4F5D100F3BDAB = {
+			isa = PBXGroup;
+			children = (
+				2CD324511AB4F5D100F3BDAB /* DailyFocus */,
+				2CD3246A1AB4F5D100F3BDAB /* DailyFocusTests */,
+				2CD324501AB4F5D100F3BDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD324501AB4F5D100F3BDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3244F1AB4F5D100F3BDAB /* DailyFocus.app */,
+				2CD324671AB4F5D100F3BDAB /* DailyFocusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD324511AB4F5D100F3BDAB /* DailyFocus */ = {
+			isa = PBXGroup;
+			children = (
+				2CD324541AB4F5D100F3BDAB /* AppDelegate.swift */,
+				2CD324591AB4F5D100F3BDAB /* ViewController.swift */,
+				2CD3245B1AB4F5D100F3BDAB /* Main.storyboard */,
+				2CD3245E1AB4F5D100F3BDAB /* Images.xcassets */,
+				2CD324601AB4F5D100F3BDAB /* LaunchScreen.xib */,
+				2CD324561AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld */,
+				2CD324521AB4F5D100F3BDAB /* Supporting Files */,
+			);
+			path = DailyFocus;
+			sourceTree = "<group>";
+		};
+		2CD324521AB4F5D100F3BDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD324531AB4F5D100F3BDAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CD3246A1AB4F5D100F3BDAB /* DailyFocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3246D1AB4F5D100F3BDAB /* DailyFocusTests.swift */,
+				2CD3246B1AB4F5D100F3BDAB /* Supporting Files */,
+			);
+			path = DailyFocusTests;
+			sourceTree = "<group>";
+		};
+		2CD3246B1AB4F5D100F3BDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3246C1AB4F5D100F3BDAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD3244E1AB4F5D100F3BDAB /* DailyFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD324711AB4F5D100F3BDAB /* Build configuration list for PBXNativeTarget "DailyFocus" */;
+			buildPhases = (
+				2CD3244B1AB4F5D100F3BDAB /* Sources */,
+				2CD3244C1AB4F5D100F3BDAB /* Frameworks */,
+				2CD3244D1AB4F5D100F3BDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyFocus;
+			productName = DailyFocus;
+			productReference = 2CD3244F1AB4F5D100F3BDAB /* DailyFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD324661AB4F5D100F3BDAB /* DailyFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD324741AB4F5D100F3BDAB /* Build configuration list for PBXNativeTarget "DailyFocusTests" */;
+			buildPhases = (
+				2CD324631AB4F5D100F3BDAB /* Sources */,
+				2CD324641AB4F5D100F3BDAB /* Frameworks */,
+				2CD324651AB4F5D100F3BDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD324691AB4F5D100F3BDAB /* PBXTargetDependency */,
+			);
+			name = DailyFocusTests;
+			productName = DailyFocusTests;
+			productReference = 2CD324671AB4F5D100F3BDAB /* DailyFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD324471AB4F5D100F3BDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Marcus Smith";
+				TargetAttributes = {
+					2CD3244E1AB4F5D100F3BDAB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2CD324661AB4F5D100F3BDAB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2CD3244E1AB4F5D100F3BDAB;
+					};
+				};
+			};
+			buildConfigurationList = 2CD3244A1AB4F5D100F3BDAB /* Build configuration list for PBXProject "DailyFocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD324461AB4F5D100F3BDAB;
+			productRefGroup = 2CD324501AB4F5D100F3BDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD3244E1AB4F5D100F3BDAB /* DailyFocus */,
+				2CD324661AB4F5D100F3BDAB /* DailyFocusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD3244D1AB4F5D100F3BDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3245D1AB4F5D100F3BDAB /* Main.storyboard in Resources */,
+				2CD324621AB4F5D100F3BDAB /* LaunchScreen.xib in Resources */,
+				2CD3245F1AB4F5D100F3BDAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD324651AB4F5D100F3BDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD3244B1AB4F5D100F3BDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3245A1AB4F5D100F3BDAB /* ViewController.swift in Sources */,
+				2CD324581AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld in Sources */,
+				2CD324551AB4F5D100F3BDAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD324631AB4F5D100F3BDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3246E1AB4F5D100F3BDAB /* DailyFocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD324691AB4F5D100F3BDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD3244E1AB4F5D100F3BDAB /* DailyFocus */;
+			targetProxy = 2CD324681AB4F5D100F3BDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD3245B1AB4F5D100F3BDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD3245C1AB4F5D100F3BDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CD324601AB4F5D100F3BDAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD324611AB4F5D100F3BDAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD3246F1AB4F5D100F3BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD324701AB4F5D100F3BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD324721AB4F5D100F3BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyFocus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CD324731AB4F5D100F3BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyFocus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CD324751AB4F5D100F3BDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyFocusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyFocus.app/DailyFocus";
+			};
+			name = Debug;
+		};
+		2CD324761AB4F5D100F3BDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyFocusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyFocus.app/DailyFocus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD3244A1AB4F5D100F3BDAB /* Build configuration list for PBXProject "DailyFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD3246F1AB4F5D100F3BDAB /* Debug */,
+				2CD324701AB4F5D100F3BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD324711AB4F5D100F3BDAB /* Build configuration list for PBXNativeTarget "DailyFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD324721AB4F5D100F3BDAB /* Debug */,
+				2CD324731AB4F5D100F3BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD324741AB4F5D100F3BDAB /* Build configuration list for PBXNativeTarget "DailyFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD324751AB4F5D100F3BDAB /* Debug */,
+				2CD324761AB4F5D100F3BDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CD324561AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CD324571AB4F5D100F3BDAB /* DailyFocus.xcdatamodel */,
+			);
+			currentVersion = 2CD324571AB4F5D100F3BDAB /* DailyFocus.xcdatamodel */;
+			path = DailyFocus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CD324471AB4F5D100F3BDAB /* Project object */;
+}
