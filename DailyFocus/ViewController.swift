@@ -8,22 +8,40 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dailyContent: UITextField!
     @IBOutlet weak var stepperLabel: UILabel!
-    // stepper
+    @IBOutlet weak var stepper: UIStepper!
+    
+    var stepperDelay: Double = 8
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.dailyContent.delegate = self
+        stepperLabel.text = String(Int(stepperDelay).description)
+        stepper.wraps = false
+        stepper.minimumValue = 1
+        stepper.maximumValue = 48
+        stepper.autorepeat = true
+        stepper.value = stepperDelay
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        dailyContent.resignFirstResponder()
+        println("\(textField.text)")
+        return true
+    }
+    
+    @IBAction func stepperValueChange(sender: AnyObject) {
+        println(stepper.value)
+        var x = stepper.value
+        stepperLabel.text = String(Int(stepper.value).description)
+    }
 }
 

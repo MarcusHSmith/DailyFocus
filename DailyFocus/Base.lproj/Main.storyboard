@@ -22,11 +22,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xhi-kb-etN">
-                                <rect key="frame" x="139" y="319" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0L-Bi-k3e">
                                 <rect key="frame" x="166" y="504" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -35,14 +30,23 @@
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ffK-Lo-NvW">
                                 <rect key="frame" x="140" y="533" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepperValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="HAw-Hl-ZOD"/>
+                                </connections>
                             </stepper>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8th-lE-lzZ">
+                                <rect key="frame" x="139" y="319" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="dailyContent" destination="xhi-kb-etN" id="Vgn-Ze-4Q2"/>
+                        <outlet property="dailyContent" destination="8th-lE-lzZ" id="cjB-uf-0Wg"/>
+                        <outlet property="stepper" destination="ffK-Lo-NvW" id="2lP-CD-9ax"/>
                         <outlet property="stepperLabel" destination="J0L-Bi-k3e" id="R7m-Oq-hfZ"/>
                         <outlet property="titleLabel" destination="G6q-v2-KSr" id="Jud-xI-eAX"/>
                     </connections>
