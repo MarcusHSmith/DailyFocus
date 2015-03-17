@@ -14,6 +14,7 @@
 		2CD3245F1AB4F5D100F3BDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD3245E1AB4F5D100F3BDAB /* Images.xcassets */; };
 		2CD324621AB4F5D100F3BDAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD324601AB4F5D100F3BDAB /* LaunchScreen.xib */; };
 		2CD3246E1AB4F5D100F3BDAB /* DailyFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3246D1AB4F5D100F3BDAB /* DailyFocusTests.swift */; };
+		2CD324781AB50D0C00F3BDAB /* DailyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD324771AB50D0C00F3BDAB /* DailyItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2CD324671AB4F5D100F3BDAB /* DailyFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD3246C1AB4F5D100F3BDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CD3246D1AB4F5D100F3BDAB /* DailyFocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFocusTests.swift; sourceTree = "<group>"; };
+		2CD324771AB50D0C00F3BDAB /* DailyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				2CD3245E1AB4F5D100F3BDAB /* Images.xcassets */,
 				2CD324601AB4F5D100F3BDAB /* LaunchScreen.xib */,
 				2CD324561AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld */,
+				2CD324771AB50D0C00F3BDAB /* DailyItem.swift */,
 				2CD324521AB4F5D100F3BDAB /* Supporting Files */,
 			);
 			path = DailyFocus;
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD324781AB50D0C00F3BDAB /* DailyItem.swift in Sources */,
 				2CD3245A1AB4F5D100F3BDAB /* ViewController.swift in Sources */,
 				2CD324581AB4F5D100F3BDAB /* DailyFocus.xcdatamodeld in Sources */,
 				2CD324551AB4F5D100F3BDAB /* AppDelegate.swift in Sources */,
